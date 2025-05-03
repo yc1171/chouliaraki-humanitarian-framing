@@ -71,7 +71,9 @@ This project employs multiple computational text analysis methods to examine pat
 ```
 post-humanitarian-text-analysis/
 ├── data/                      # Data directory
-│   └── globalgiving_activities.csv  # Primary dataset (not included due to size)
+│   └── globalgiving_activities.csv  # Primary dataset
+├── scripts/                   # Code scripts
+│   └── main-analysis.R        # Main analysis script
 ├── results/                   # Saved analysis results
 │   ├── agency_counts.rds      # Agency term analysis
 │   ├── cooc_results.rds       # Co-occurrence analysis
@@ -79,7 +81,6 @@ post-humanitarian-text-analysis/
 │   ├── lda_model.rds          # Topic modeling results
 │   └── agency_evolution.rds   # Temporal analysis results
 ├── figures/                   # Generated visualizations
-├── analysis.R                 # Main analysis script
 └── README.md                  # Project documentation
 ```
 
